@@ -4,7 +4,7 @@ using namespace std;
 // int main(){
 //     int n;
 //     cout<<"enter the value of n is "<< endl;
-//     cin>> n;
+//     cin>> n;  
 
 //     int number = 1;
 //     int sum  = 0;
@@ -138,6 +138,7 @@ int main(){
 
 
 }
+
 
 
 
