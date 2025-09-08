@@ -47,7 +47,7 @@ void take_input(Node* &root){
     }
 }
 
-
+//.................................Print the binary search tree..................
 void print_LOT(Node* root){
     queue<Node* > q1;
     if(root==nullptr){
@@ -273,4 +273,5 @@ int main(){
 
 
 }
+
 
