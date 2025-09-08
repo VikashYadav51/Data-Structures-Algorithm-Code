@@ -77,7 +77,7 @@ void print_LOT(Node* root){
     }
 }
 
-
+//........................................Print the inorder element..........
 void print_inOrder(Node* root){
     Node* temp = root;
 
@@ -273,5 +273,6 @@ int main(){
 
 
 }
+
 
 
