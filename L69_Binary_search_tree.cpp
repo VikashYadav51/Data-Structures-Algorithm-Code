@@ -92,6 +92,8 @@ void print_inOrder(Node* root){
     print_inOrder(temp->right);
 }
 
+
+//......................................Print the preorder element...........
 void print_preOrder(Node* root){
     Node* temp = root;
 
@@ -273,6 +275,7 @@ int main(){
 
 
 }
+
 
 
 
