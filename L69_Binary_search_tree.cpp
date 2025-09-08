@@ -108,6 +108,9 @@ void print_preOrder(Node* root){
     print_preOrder(temp->right);
 }
 
+
+//........................................Print the post order element........
+
 void print_postOrder(Node* root){
     Node* temp = root;
 
@@ -123,6 +126,7 @@ void print_postOrder(Node* root){
 }
 
 
+//.............................................Check the target node is exsit or not in BST...........
 bool Search_BST(Node* root, int target){
     if(root == nullptr){
         return false;
@@ -275,6 +279,7 @@ int main(){
 
 
 }
+
 
 
 
