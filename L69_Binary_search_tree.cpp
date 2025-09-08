@@ -16,6 +16,8 @@ class Node{
     }
 };
 
+//............Construct the binary Search tree........................
+
 Node* Construct_BST(Node* root, int data){
     if(root == nullptr){
         root = new Node(data);
@@ -271,3 +273,4 @@ int main(){
 
 
 }
+
