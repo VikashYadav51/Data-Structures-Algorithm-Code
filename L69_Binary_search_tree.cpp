@@ -144,6 +144,10 @@ bool Search_BST(Node* root, int target){
     }
 }
 
+//......................find Minimum value in BST................
+
+//As we know in BST minimum value will be exist in our left direction......only....we will go only in left direction till left leaf node....
+
 int find_minimum_value(Node* root){
 
     //..................................Approach(1)...........using recursion....
@@ -161,6 +165,8 @@ int find_minimum_value(Node* root){
 
     // find_minimum_value(root->left);
 
+    
+
     //.......................................Approach(2)................using iterative way.....
 
     Node* temp = root;
@@ -170,6 +176,8 @@ int find_minimum_value(Node* root){
     return temp->data;
 
 }
+
+
 
 Node* delete_node(Node* &root, int target){
     if(root==nullptr){
@@ -279,6 +287,7 @@ int main(){
 
 
 }
+
 
 
 
