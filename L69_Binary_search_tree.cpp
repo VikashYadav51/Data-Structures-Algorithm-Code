@@ -287,8 +287,23 @@ int main(){
     cout<<"After deletion the target node BST  is "<< endl;
     print_LOT(root);
 
+    cout<< endl;
+
+    cout<<"print the data in inorder way "<< endl;
+    print_inOrder(root);
+    cout<< endl;
+
+    cout<<"print the data in preorder way "<< endl;
+    print_preOrder(root);
+    cout<< endl;
+
+    cout<<"print the data in postorder way "<< endl;
+    print_postOrder(root);
+    cout<< endl;
+
 
 }
+
 
 
 
