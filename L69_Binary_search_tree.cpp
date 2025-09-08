@@ -179,6 +179,8 @@ int find_minimum_value(Node* root){
 
 
 
+//.................Deletion in BST........................
+
 Node* delete_node(Node* &root, int target){
     if(root==nullptr){
         return root;
@@ -241,19 +243,19 @@ int main(){
     cout<<"Print the data in LOT order before deletion  : "<< endl;
     print_LOT(root);
 
-    // cout<< endl;
+    cout<< endl;
 
-    // cout<<"print the data in inorder way "<< endl;
-    // print_inOrder(root);
-    // cout<< endl;
+    cout<<"print the data in inorder way "<< endl;
+    print_inOrder(root);
+    cout<< endl;
 
-    // cout<<"print the data in preorder way "<< endl;
-    // print_preOrder(root);
-    // cout<< endl;
+    cout<<"print the data in preorder way "<< endl;
+    print_preOrder(root);
+    cout<< endl;
 
-    // cout<<"print the data in postorder way "<< endl;
-    // print_postOrder(root);
-    // cout<< endl;
+    cout<<"print the data in postorder way "<< endl;
+    print_postOrder(root);
+    cout<< endl;
 
 
 
@@ -287,6 +289,7 @@ int main(){
 
 
 }
+
 
 
 
