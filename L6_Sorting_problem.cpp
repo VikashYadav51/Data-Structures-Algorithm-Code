@@ -41,6 +41,8 @@ void bubble_sorting(int arr[], int size){
     }
 }
 
+/* ............Insertion Sorting..................*/
+
 void insertion_sorting(int arr[], int size){
     if(size==0 || size==1){
         return ;
@@ -93,6 +95,7 @@ int main(){
     }
 
 }
+
 
 
 
