@@ -23,6 +23,8 @@ void selection_sorting(int arr[], int size){
     }
 }
 
+//........................bubble sorting ..........//.......
+
 void bubble_sorting(int arr[], int size){
     if(size == 0 || size == 1){
         return ;
@@ -89,4 +91,5 @@ int main(){
     }
 
 }
+
 
