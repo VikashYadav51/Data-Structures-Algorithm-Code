@@ -283,22 +283,7 @@ int main(){
 
     // cout<<"After deletion the target node BST  is "<< endl;
     // print_LOT(root);
-    
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
 
 }
+
 
