@@ -33,6 +33,7 @@ Node* Construct_BST(Node* root, int data){
     return root;
 
 }
+//.........Take the input as a form of array......
 
 void take_input(Node* &root){
     int data;
@@ -45,6 +46,8 @@ void take_input(Node* &root){
     }
 }
 
+
+//..........Print Level of treversol order......
 
 void print_LOT(Node* root){
     queue<Node* > q1;
@@ -273,6 +276,7 @@ int main(){
 
     
     
+
 
 
 
