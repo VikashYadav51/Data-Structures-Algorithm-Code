@@ -16,8 +16,6 @@ class Node{
     }
 };
 
-//............Construct the binary Search tree........................
-
 Node* Construct_BST(Node* root, int data){
     if(root == nullptr){
         root = new Node(data);
@@ -47,7 +45,7 @@ void take_input(Node* &root){
     }
 }
 
-//.................................Print the binary search tree..................
+
 void print_LOT(Node* root){
     queue<Node* > q1;
     if(root==nullptr){
@@ -77,7 +75,7 @@ void print_LOT(Node* root){
     }
 }
 
-//........................................Print the inorder element..........
+
 void print_inOrder(Node* root){
     Node* temp = root;
 
@@ -92,8 +90,6 @@ void print_inOrder(Node* root){
     print_inOrder(temp->right);
 }
 
-
-//......................................Print the preorder element...........
 void print_preOrder(Node* root){
     Node* temp = root;
 
@@ -107,9 +103,6 @@ void print_preOrder(Node* root){
 
     print_preOrder(temp->right);
 }
-
-
-//........................................Print the post order element........
 
 void print_postOrder(Node* root){
     Node* temp = root;
@@ -126,7 +119,6 @@ void print_postOrder(Node* root){
 }
 
 
-//.............................................Check the target node is exsit or not in BST...........
 bool Search_BST(Node* root, int target){
     if(root == nullptr){
         return false;
@@ -143,10 +135,6 @@ bool Search_BST(Node* root, int target){
         bool check_right = Search_BST(root->right, target);
     }
 }
-
-//......................find Minimum value in BST................
-
-//As we know in BST minimum value will be exist in our left direction......only....we will go only in left direction till left leaf node....
 
 int find_minimum_value(Node* root){
 
@@ -165,8 +153,6 @@ int find_minimum_value(Node* root){
 
     // find_minimum_value(root->left);
 
-    
-
     //.......................................Approach(2)................using iterative way.....
 
     Node* temp = root;
@@ -176,10 +162,6 @@ int find_minimum_value(Node* root){
     return temp->data;
 
 }
-
-
-
-//.................Deletion in BST........................
 
 Node* delete_node(Node* &root, int target){
     if(root==nullptr){
@@ -243,19 +225,19 @@ int main(){
     cout<<"Print the data in LOT order before deletion  : "<< endl;
     print_LOT(root);
 
-    cout<< endl;
+    // cout<< endl;
 
-    cout<<"print the data in inorder way "<< endl;
-    print_inOrder(root);
-    cout<< endl;
+    // cout<<"print the data in inorder way "<< endl;
+    // print_inOrder(root);
+    // cout<< endl;
 
-    cout<<"print the data in preorder way "<< endl;
-    print_preOrder(root);
-    cout<< endl;
+    // cout<<"print the data in preorder way "<< endl;
+    // print_preOrder(root);
+    // cout<< endl;
 
-    cout<<"print the data in postorder way "<< endl;
-    print_postOrder(root);
-    cout<< endl;
+    // cout<<"print the data in postorder way "<< endl;
+    // print_postOrder(root);
+    // cout<< endl;
 
 
 
@@ -278,36 +260,28 @@ int main(){
 
 
 
-    int target;
-    cout<<"Enter the target "<< endl;
-    cin>> target;
+    // int target;
+    // cout<<"Enter the target "<< endl;
+    // cin>> target;
 
-    root = delete_node(root, target);
+    // root = delete_node(root, target);
 
-    cout<<"After deletion the target node BST  is "<< endl;
-    print_LOT(root);
+    // cout<<"After deletion the target node BST  is "<< endl;
+    // print_LOT(root);
+    
 
-    cout<< endl;
 
-    cout<<"print the data in inorder way "<< endl;
-    print_inOrder(root);
-    cout<< endl;
+    
+    
 
-    cout<<"print the data in preorder way "<< endl;
-    print_preOrder(root);
-    cout<< endl;
 
-    cout<<"print the data in postorder way "<< endl;
-    print_postOrder(root);
-    cout<< endl;
+
+
+
+
+
+
+
 
 
 }
-
-
-
-
-
-
-
-
