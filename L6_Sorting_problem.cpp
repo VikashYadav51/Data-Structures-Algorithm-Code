@@ -7,6 +7,8 @@ using namespace std;
 /* Selection Sorting is method where we have sort the array in assending or desending order firstly we have  tookthe by comparison  one lowest or biggest element in 
         unsorted array  and movwe it to sorted part......*/
 
+//....Time Complexity........O(n)........Space Complexity.............o(1).
+
 void selection_sorting(int arr[], int size){
     if(size == 0 || size ==1){
         return ;
@@ -26,6 +28,8 @@ void selection_sorting(int arr[], int size){
 //........................bubble sorting ..........//.......
 
 /* in bubble sorting we sort the array by comparison the adajcent element.....*/
+
+//....Time Complexity........O(n)........Space Complexity.............o(1).
 
 void bubble_sorting(int arr[], int size){
     if(size == 0 || size == 1){
@@ -97,6 +101,7 @@ int main(){
     }
 
 }
+
 
 
 
