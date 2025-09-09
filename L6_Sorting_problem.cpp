@@ -43,6 +43,8 @@ void bubble_sorting(int arr[], int size){
 
 /* ............Insertion Sorting..................*/
 
+//....Time Complexity........O(n)........Space Complexity.............o(1).
+
 void insertion_sorting(int arr[], int size){
     if(size==0 || size==1){
         return ;
@@ -95,6 +97,7 @@ int main(){
     }
 
 }
+
 
 
 
