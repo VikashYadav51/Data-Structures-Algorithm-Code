@@ -2,6 +2,10 @@
 using namespace std;
 
 //..........Selection Sorting Algorithms.....
+/* Sorting is a method or technique where we have sort the array using diffrent diffrent sorting algorithms.  */
+
+/* Selection Sorting is method where we have sort the array in assending or desending order firstly we have  tookthe by comparison  one lowest or biggest element in 
+        unsorted array  and movwe it to sorted part......*/
 
 void selection_sorting(int arr[], int size){
     if(size == 0 || size ==1){
@@ -85,3 +89,4 @@ int main(){
     }
 
 }
+
