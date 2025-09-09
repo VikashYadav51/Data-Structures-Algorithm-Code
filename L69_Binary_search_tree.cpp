@@ -78,6 +78,7 @@ void print_LOT(Node* root){
     }
 }
 
+//..........Print the inorder.............
 
 void print_inOrder(Node* root){
     Node* temp = root;
@@ -93,6 +94,8 @@ void print_inOrder(Node* root){
     print_inOrder(temp->right);
 }
 
+//.......print the pre order....................
+
 void print_preOrder(Node* root){
     Node* temp = root;
 
@@ -107,6 +110,8 @@ void print_preOrder(Node* root){
     print_preOrder(temp->right);
 }
 
+
+//...........print the post order......
 void print_postOrder(Node* root){
     Node* temp = root;
 
@@ -121,7 +126,7 @@ void print_postOrder(Node* root){
     cout<< temp->data << "  ";
 }
 
-
+//............check the target node is persent in BST......
 bool Search_BST(Node* root, int target){
     if(root == nullptr){
         return false;
@@ -138,6 +143,10 @@ bool Search_BST(Node* root, int target){
         bool check_right = Search_BST(root->right, target);
     }
 }
+
+//...................Find minimum value in BST........
+
+///.........As we know lowest data will be exit in BST in left direction....so that why we will go to leaf node of left direction.............
 
 int find_minimum_value(Node* root){
 
@@ -165,6 +174,9 @@ int find_minimum_value(Node* root){
     return temp->data;
 
 }
+
+
+//...............Delete the target node in BST....................
 
 Node* delete_node(Node* &root, int target){
     if(root==nullptr){
@@ -289,3 +301,4 @@ int main(){
 
 
 }
+
