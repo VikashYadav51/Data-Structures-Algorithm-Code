@@ -25,6 +25,8 @@ void selection_sorting(int arr[], int size){
 
 //........................bubble sorting ..........//.......
 
+/* in bubble sorting we sort the array by comparison the adajcent element.....*/
+
 void bubble_sorting(int arr[], int size){
     if(size == 0 || size == 1){
         return ;
@@ -91,5 +93,6 @@ int main(){
     }
 
 }
+
 
 
