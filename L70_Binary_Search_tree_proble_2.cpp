@@ -2,6 +2,8 @@
 #include<vector>
 using namespace std;
 
+//...........Create the classs............
+
 class Node{
     public:
     int data;
@@ -14,6 +16,8 @@ class Node{
         this->right = nullptr;
     }
 };
+
+//.............
 
 Node* Construct_BST(Node* &root, int data){
     if(root == nullptr){
@@ -216,6 +220,7 @@ int main(){
     // cout<< pre <<"  "<< succ <<endl;
 
     //............Q(4)......................
+
 
 
 
