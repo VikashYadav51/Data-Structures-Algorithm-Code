@@ -17,7 +17,7 @@ class Node{
     }
 };
 
-//.............
+//.............Construct the BST..................
 
 Node* Construct_BST(Node* &root, int data){
     if(root == nullptr){
@@ -232,3 +232,4 @@ int main(){
 
 
 }
+
