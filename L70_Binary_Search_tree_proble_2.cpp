@@ -113,6 +113,8 @@ int find_maxi_element(Node* root){
     return find_maxi_element(root->right);
 }
 
+//...........Find minimum element.................
+
 int find_mini_element(Node* root){
     if(root == nullptr){
         return -1;
@@ -128,6 +130,8 @@ int find_mini_element(Node* root){
 
     return find_mini_element(root->left);
 }
+
+//..............Find presessore and Successsor int BST..................
 
 void find_key(Node* root, int target, int &pre, int &succ){
     if(root == nullptr){
@@ -221,15 +225,6 @@ int main(){
 
     //............Q(4)......................
 
-
-
-
-
-
-
-
-
-
-
 }
+
 
